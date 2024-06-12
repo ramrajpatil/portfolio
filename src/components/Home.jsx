@@ -3,35 +3,26 @@ import pdf from "../pdf/resume_ramraj.pdf";
 import hero from "./Data/hero.json";
 import Typed from "typed.js";
 
-
 const Home = () => {
+  const typedRefresh = useRef(null);
 
-
- const typedRefresh =  useRef(null);
-
-  useEffect(()=>{
+  useEffect(() => {
     const options = {
-      strings:["Hello, I am Ramraj Patil"],
-      typeSpeed:50,
-      backSpeed:50,
-      loop:true
+      strings: ["Hello, I am Ramraj Patil"],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+    };
+    const typed = new Typed(typedRefresh.current, options);
 
-      }
-    const typed = new Typed(typedRefresh.current, options)
-
-    return () =>{
+    return () => {
       typed.destroy();
-    }
-
-  },[])
-
+    };
+  }, []);
 
   return (
     <div className="container home mt-4" id="home">
-      <div className="left"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      >
+      <div className="left" data-aos="fade-right" data-aos-duration="1000">
         <h1 ref={typedRefresh}></h1>
         <p>A Full Stack Java Developer</p>
         <a
@@ -43,10 +34,7 @@ const Home = () => {
           Download Resume
         </a>
       </div>
-      <div className="right"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      >
+      <div className="right" data-aos="fade-left" data-aos-duration="1000">
         <div className="img">
           <img src={`/assets/${hero.imgSrc}`} alt="ramraj patil" />
         </div>

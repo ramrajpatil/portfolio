@@ -45,7 +45,7 @@ a {
 .home {
   height: 80vh;
   display: flex;
-  justify-content: space-between;
+  justify-content:center ;
   align-items: center;
 }
 
