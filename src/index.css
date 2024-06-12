@@ -42,16 +42,43 @@ a {
 }
 
 /* Home Section */
+/* Home.css */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.left, .right {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row; /* Display items side by side on larger screens */
+  }
+
+  .left, .right {
+    width: 50%; /* Each section takes half of the container's width */
+  }
+}
+
+/* Home Section */
 .home {
   height: 80vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .home .left {
   background-color: var(--bg-color);
-  width: 620px;
+  max-width: 620px; /* Change width to max-width for responsiveness */
+  width: 90%; /* Adjust width for smaller screens */
   text-align: center;
   padding: 30px;
   border-radius: 10px;
@@ -67,6 +94,7 @@ a {
 
 .home .right .img img {
   width: 270px;
+  max-width: 100%; /* Ensure image is responsive */
   border-radius: 20%;
   border: 5px solid red;
   animation-name: profile-photo;
@@ -99,6 +127,21 @@ a {
     box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
   }
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column; /* Stack left and right sections vertically */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .home .left {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-bottom: 20px; /* Add some spacing between left and right sections */
+  }
+}
+
+
 
 /* Experience Section */
 .ex {
