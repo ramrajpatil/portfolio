@@ -45,7 +45,7 @@ a {
 .home {
   height: 80vh;
   display: flex;
-  justify-content:center ;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -154,7 +154,7 @@ box-shadow: var(--box-shadow);
 /* Contact Me Section */
 
 .contact-icon{
-  height: 20vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
