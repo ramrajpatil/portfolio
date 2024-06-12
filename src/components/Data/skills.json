@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Java",
+    "imageSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+  },
+  {
+    "title": "Spring",
+    "imageSrc": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+  },
+  {
+    "title":"MySQL",
+    "imageSrc":"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+  },
+  {
+    "title": "Hibernate",
+    "imageSrc": "/assets/skills/hibernate.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "/assets/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/assets/skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/assets/skills/react.png"
+  }
+]

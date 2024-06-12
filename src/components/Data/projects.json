@@ -1,0 +1,38 @@
+[
+  {
+    "key": 1,
+    "title": "Blog Management System",
+    "imageSrc": "project/bms.png",
+    "description": "Aimed at providing users with a platform to create, manage, and interact with blog posts in various categories.",
+    "techStack":"RESTful API, SpringBoot, Spring Security, JWT, MySQL, J2EE, Hibernate, ReactJS, Bootstrap",
+    
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 2,
+    "title": "Cinema Booking System",
+    "imageSrc": "project/cbs.png",
+    "description": "A user-friendly interface for seamless movie ticket reservations and seat selection. The special feature like ticket generation is there.",
+    "techStack":"RESTful API, SpringBoot, Spring Security, JWT, MySQL, J2EE, Hibernate, ReactJS, Bootstrap",
+    
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 3,
+    "title": "E-Learning Platform",
+    "imageSrc": "project/el.png",
+    "description": "The objective of the project was to make it available the information about the IT related topics on finger tips. One can login and start reading the contents on the go.",
+    "techStack":"MySQL, J2EE, Spring-MVC, Hibernate, JSP, HTML-CSS-JS, Bootstrap.",
+    
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 4,
+    "title": "Blogging App (Minor)",
+    "imageSrc": "project/blog-minor.png",
+    "description": "Project is done using J2EE Spring Hibernate in backend and JSP in Frontend. I have implemented CrUD operations where a user can add a category and has read-write permissions only on his/her blogs.",
+    "techStack":"MySQL, J2EE, Hibernate, Spring, JSP, HTML-CSS, Bootstrap.",
+    
+    "source": "https://www.github.com"
+  }
+]

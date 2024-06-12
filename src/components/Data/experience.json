@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "role": "Jr Design Engineer (NON-IT)",
+    "organization": "POTNIS INDIA",
+    "startDate": "July 2018",
+    "endDate": "June 2021",
+    "location": "Andheri (E), Mumbai",
+    "experiences": [
+      "Right in middle of COVID, came up with an idea of sensor operated sanitizing stand to limit contact/ break the chain."
+    ],
+    "imageSrc": "company/fabrinox.png"
+  },
+  {
+    "id": 2,
+    "role": "Design consultant (NON-IT)",
+    "organization": "FABRINOX POTNIS INDIA PVT LTD,",
+    "startDate": "Jan 2019",
+    "endDate": "March 2020",
+    "location": "Vashi, Navi Mumbai",
+    "experiences": [
+      "Came up with a quicker and more accurate laser cutting solution for the sheet metal components."
+      
+    ],
+    "imageSrc": "company/fabrinox.png"
+  }
+]
