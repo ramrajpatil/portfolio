@@ -30,7 +30,7 @@
     "key": 4,
     "title": "Blogging App (Minor)",
     "imageSrc": "project/blog-minor.png",
-    "description": "Project is done using J2EE Spring Hibernate in backend and JSP in Frontend. I have implemented CrUD operations where a user can add a category and has read-write permissions only on his/her blogs.",
+    "description": "Project is done using J2EE Spring Hibernate in backend and JSP in Frontend. I have implemented CRUD operations where a user can add a category and has read-write permissions only on his/her blogs.",
     "techStack":"MySQL, J2EE, Hibernate, Spring, JSP, HTML-CSS, Bootstrap.",
     
     "source": "https://github.com/ramrajpatil/Blogging-App"
