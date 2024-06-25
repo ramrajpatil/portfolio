@@ -38,7 +38,7 @@
   {
     "key": 5,
     "title": "Grofers App (E_Commerce)",
-    "imageSrc": "project/bms.png",
+    "imageSrc": "project/grofers.png",
     "description": "Project is about ordering products from an e-commerce website, have functionalities such as adding items to cart and placing an order. User can edit the cart as well as delivery date for the order.",
     "techStack":"RESTful API, SpringBoot, Spring Security, JWT, MySQL, J2EE, Hibernate, ReactJS, Bootstrap",
     
