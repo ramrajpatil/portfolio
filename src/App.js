@@ -34,10 +34,10 @@ function App() {
         <Skills/>
       </div>
       <div className="container pb-5">
-        <Projects/>
+        <Experience />
       </div>
       <div className="container pb-5">
-        <Experience />
+        <Projects/>
       </div>
       <div className="container">
         <Contact/>
