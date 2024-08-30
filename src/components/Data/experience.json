@@ -1,18 +1,6 @@
 [
   {
     "id": 1,
-    "role": "Java Developer",
-    "organization": "Catalyst IT Pvt. Ltd.",
-    "startDate": "May 2023",
-    "endDate": "Present",
-    "location": "Baner, Pune",
-    "experiences": [
-      "Developed and maintained RESTful APIs conforming to industry standards, showcasing comprehensive knowledge of API design and development."
-    ],
-    "imageSrc": "company/cat_it.png"
-  },
-  {
-    "id": 2,
     "role": "Jr Design Engineer (NON-IT)",
     "organization": "POTNIS INDIA",
     "startDate": "July 2018",
@@ -24,7 +12,7 @@
     "imageSrc": "company/fabrinox.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "role": "Design consultant (NON-IT)",
     "organization": "FABRINOX POTNIS INDIA PVT LTD,",
     "startDate": "Jan 2019",
